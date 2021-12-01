@@ -2876,130 +2876,7 @@ function updateRuneWordsVisible()
 <button type='button' id='color'        disabled onclick='onColor(this)      ;'>Color</button>
 <button type='button' id='collapse_all'          onclick='onCollapseAll(this);'>Collapse</button>
             <br>
-            <br>
-            <table class='head' style='min-width:730px' id='table.fcr'>
-<tr class='bt bb'        ><th><span class='b'>Faster Cast Rate (<span class='fcr'>FCR</span>)</span>                             <a href='https://www.youtube.com/watch?v=ivm5cFeJYSA'>Hidden</a> 86 <a href='https://www.diabloii.net/forums/threads/druid-fcr-action-frames-good-info-for-pvp-elementalists-i.794229/'>breakpoint</a> *<div class='collapse'><button value='table.fcr' onclick='onCollapse(this);'>-</button></div>
-<meta                       />Frames  23  22  21  20  19  18  17  16  15   14   13   12   11   10    9    8    7</th></tr>
-<tr><td class='tooltip k11'  >Ama                      0   7  14  22  32   48   68   99  152                    </td></tr>
-<tr><td class='tooltip r22'  >Asn                                  0   8   16   27   42   65  102  174          </td></tr>
-<tr><td class='tooltip k11'  >Bar                                                0    9   20   37   63  105  200</td></tr>
-<tr><td class='tooltip g22'  >Drd Human                    0   4  10  19   30   46   68   99  163               </td></tr>
-<tr><td class='tooltip k11'  >    Bear                             0   7   15   26   40   63   99  163          </td></tr>
-<tr><td class='tooltip g22'  >    Wolf                             0   6   14   26   40   60   95  157          </td></tr>
-<tr><td class='tooltip k11'  >Nec Human                                0    9   18   30   48   75  125          </td></tr>
-<tr><td class='tooltip k22'  >    Vamp 0   6  11  18  24  35  48  65  86  120  180                              </td></tr>
-<tr><td class='tooltip k11'  >Pal                                      0    9   18   30   48   75  125          </td></tr>
-<tr><td class='tooltip b22'  >Src Lightning            0   7  15  23  35   52   78  117  194                    </td></tr>
-<tr><td class='tooltip k11'  >    Other skills                                   0    9   20   37   63<span class='note'>*</span> 105  200</td></tr>
-<tr><td class='tooltip k22'  >Mrc Act3                         0   8  15   26   39   58   86  138               </td></tr>
-<tr class='bt'           ><th>Frames  23  22  21  20  19  18  17  16  15   14   13   12   11   10    9    8    7</th></tr>
-            </table>
-            <br>
-            <table class='head column2' id='table.fhr'>
-<tr class='gt gb'        ><th><span class='g'>Faster Hit Recovery (<span class='fhr'>FHR</span>)</span><div class='collapse'><button value='table.fhr' onclick='onCollapse(this);'>-</button></div>
-<meta                       />Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
-<tr><td class='tooltip k11'  >Ama                               0   6  13  20   32   52   86  174  600          </td></tr>
-<tr><td class='tooltip r22'  >Asn                                       0   7   15   27   48   86  200          </td></tr>
-<tr><td class='tooltip k11'  >Bar                                       0   7   15   27   48   86  200          </td></tr>
-<tr><td class='tooltip g22'  >Drd Human 1H          0   3   7  13  19  29  42   63   99  174  456               </td></tr>
-<tr><td class='tooltip k11'  >    Human 2H              0   5  10  16  26  39   56   86  152  377               </td></tr>
-<tr><td class='tooltip g22'  >    Bear                  0   5  10  16  24  37   54   86  152  460               </td></tr>
-<tr><td class='tooltip k11'  >    Wolf                                           0    9   20   42   86  280     </td></tr>
-<tr><td class='tooltip k22'  >Nec Human                 0   5  10  16  26  39   56   86  152  377               </td></tr>
-<tr><td class='tooltip k11'  >    Vamp          0   2   6  10  16  24  34  48   72  117                         </td></tr>
-<tr><td class='tooltip k22'  >Pal Spear/Stave           0   3   7  13  20  32   48   75  129  280               </td></tr>
-<tr><td class='tooltip k11'  >    rest                                  0   7   15   27   48   86  200          </td></tr>
-<tr><td class='tooltip b22'  >Src               0   5   9  14  20  30  42  60   86  142  280                    </td></tr>
-<tr><td class='tooltip k11'  >Mrc Act1                          0   6  13  20   32   52   86  174  600          </td></tr>
-<tr><td class='tooltip k22'  >    Act2          0   5   9  14  20  30  42  60   86  142  280                    </td></tr>
-<tr><td class='tooltip k11'  >    Act3  0   5   8  13  18  24  32  46  63  86  133  232  600                    </td></tr>
-<tr><td class='tooltip k22'  >    Act5                                  0   7   15   27   48   86  200          </td></tr>
-<tr class='gt'           ><th>Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
-            </table>
-            <br>
-            <table class='head column2' id='table.fbr'>
-<tr class='rt rb'        ><th><span class='r'>Faster Block Rate (<span class='fbr'>FBR</span>)</span>           Block% = (Shield% * (Dex - 15)) / (clvl * 2)<div class='collapse'><button value='table.fbr' onclick='onCollapse(this);'>-</button></div>
-<meta                       />Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
-<tr><td class='tooltip k22'  >Ama 1H*   0   4   6  11  15  23  29  40  56  80  120  200  480                    <span class='tool ttr'><b>Includes:</b><br><br> 1H axes and throwing axes,<br> clubs,<br> 1H maces, <br> orbs,<br> scepters, <br> 1H swords, 2H swords wielded in one hand,<br> and wands.</span></td></tr>
-<tr><td class='tooltip k11'  >    2H                                                       0   13   32   86  600</td></tr>
-<tr><td class='tooltip r22'  >Asn                                                          0   13   32   86  600</td></tr>
-<tr><td class='tooltip k11'  >Bar                                                0    9   20   42   86  280     </td></tr>
-<tr><td class='tooltip g22'  >Drd Human                         0   6  13  20   32   52   86  174  600          </td></tr>
-<tr><td class='tooltip g11'  >    Bear                                  0   7   15   27   48   86  200          </td></tr>
-<tr><td class='tooltip k22'  >    Wolf                  0   5  10  16  27  40   65  109  223                    </td></tr>
-<tr><td class='tooltip k11'  >Nec Human                         0   6  13  20   32   52   86  174  600          </td></tr>
-<tr><td class='tooltip k22'  >    Vamp          0   2   6  10  16  24  34  48   72  117  208                    </td></tr>
-<tr><td class='tooltip k11'  >Pal                                                          0   13   32   86  600</td></tr>
-<tr><td class='tooltip k22'  >    Holy Shield                                                             0   86</td></tr>
-<tr><td class='tooltip b22'  >Src                                       0   7   15   27   48   86  200          </td></tr>
-<tr class='rt'           ><th>Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
-            </table>
-<br>
-
-<table class='head' id='table.reroll'>
-    <tr class='rt rb'><th><a href='http://classic.battle.net/diablo2exp/items/cube.shtml'><span class='r'>Rerolling Magic/Rare Items</span></a><div class='collapse'><button value='table.reroll' onclick='onCollapse(this);'>-</button></div></th></tr>
-    <tr><td class='tooltip k11'>3 Perfect Gems + <span class='magic'>Magic</span> Item &rarr; New Random <span class='magic'>Magic</span> Item of the same type (<span class='magic'>Grand Charms</span>)           <span class='tool ttr'>Skillers ilvl 50,<br><br>Skillers with +(41-45) Life ilvl 94<br><b>Hell</b> Baal, Diablo, Nihlathak</span></td></tr>
-    <tr><td class='tooltip k22'>6 Perfect Skulls + Rare Item &rarr; Random Low Quality Rare Item of the same type (<span class='rare'>Diadems</span>)        </td></tr>
-</table>
-<br>
-<table class='head' id='table.sockcube'>
-    <tr class='gt gb'><th><span class='g'>Socketing (with Act 5 <a href='https://diablo2.diablowiki.net/Siege_on_Harrogath'>Larzuk</a>, <a href='http://classic.battle.net/diablo2exp/items/cube.shtml'>Cube</a>, or Ebug)</span><div class='collapse'><button value='table.sockcube' onclick='onCollapse(this);'>-</button></div></th></tr>
-    <tr><td class='tooltip k11'>Normal drops = max 3<span class='note'>*</span> sockets      (<span class='note'>*Cows</span> = 4 socket, <span class='note'>Larzuk</span> # sockets = ilvl &larr; mlvl &larr; alvl)</td></tr>
-    <tr><td class='tooltip k22'> nm    drops = max 4 sockets       (<span class='mf'>0</span> MF is best for finding bases)                           </td></tr>
-    <tr><td class='tooltip k11'>Hell   drops = max 6 sockets                                                                  </td></tr>
-    <tr><td class='tooltip k22'>Larzuk = max 1 socket to uniques, 1-6 sockets to white bases depending on ilvl and type       </td></tr>
-    <tr><td class='tooltip k11'>Tal + Thul + Perfect Topaz    + Normal Body Armor &rarr; Socketed Body Armor of same type          <span class='tool ttk'><span class='in'>Tal </span><img src='runes/tal.png'  /><span class='in'> + Thul </span><img src='runes/thul.png' /><span class='in'> + </span><img src='gems/topaz_perfect.png'   ></span></td></tr>
-    <tr><td class='tooltip k22'>Ral + Amn  + Perfect Amethyst + Normal Weapon     &rarr; Socketed Weapon     of same type          <span class='tool ttk'><span class='in'>Ral </span><img src='runes/ral.png'  /><span class='in'> + Amn  </span><img src='runes/amn.png'  /><span class='in'> + </span><img src='gems/amethyst_perfect.png'></span></td></tr>
-    <tr><td class='tooltip k11'>Ral + Thul + Perfect Sapphire + Normal Helm       &rarr; Socketed Helm       of same type          <span class='tool ttk'><span class='in'>Ral </span><img src='runes/ral.png'  /><span class='in'> + Thul </span><img src='runes/thul.png' /><span class='in'> + </span><img src='gems/sapphire_perfect.png'></span></td></tr>
-    <tr><td class='tooltip k22'>Tal + Amn  + Perfect Ruby     + Normal Shield     &rarr; Socketed Shield     of same type          <span class='tool ttk'><span class='in'>Tal </span><img src='runes/tal.png'  /><span class='in'> + Amn  </span><img src='runes/amn.png'  /><span class='in'> + </span><img src='gems/ruby_perfect.png'    ></span></td></tr>
-    <tr><td class='tooltip k11'>Hel + Scroll of Town Portal   + Any Socketed Item &rarr; Remove gems, runes, or jewels from sockets<span class='tool ttk'><span class='in'>Hel </span><img src='runes/hel.png'  /><span class='in'> + </span><img src='pics/scroll_town_portal.png'/></span                                 ></td></tr>
-</table>
-<br>
-<table class='head' id='table.repair'>
-    <tr class='bt bb'      ><th><span class='b'>Repair</span> (<b>Note:</b> <span class='note'>You cannot repair Ethereal items</span>)<div class='collapse'><button value='table.repair' onclick='onCollapse(this);'>-</button></div></th></tr>
-    <tr><td class='tooltip k11'>Ort Rune + Weapon               &rarr; Fully Repaired Weapon                                       <span class='tool ttk'><span class='in'>Ort </span><img src='runes/ort.png'  /></span></td></tr>
-    <tr><td class='tooltip k11'>Ral Rune + Armor                &rarr; Fully Repaired Armor                                        <span class='tool ttk'><span class='in'>Ral </span><img src='runes/ral.png'  /></span></td></tr>
-    <tr><td class='tooltip y22'>Ort Rune + Chipped Gem + Weapon &rarr; Fully Repaired and Recharged Weapon                         <span class='tool ttk'><span class='in'>Ort </span><img src='runes/ort.png'  /><span class='in'> + Chipped gem (any type)</span><br><br>(Usefull for recharging <b>Teleport</b>) staff</span></td><tr>
-    <tr><td class='tooltip y11'>Ral Rune + Flawed Gem  + Armor  &rarr; Fully Repaired and Recharged Armor                          <span class='tool ttk'><span class='in'>Ral </span><img src='runes/ral.png'  /><span class='in'> + Flawed gem (any type)</span></td</tr>
-</table>
-<br>
-<table class='head' id='table.misccube'>
-    <tr class='rt rb'><th      >Misc. Cube<div class='collapse'><button value='table.misccube' onclick='onCollapse(this);'>-</button></div></th></tr>
-    <tr><td class='tooltip r11'>3x Rejuvenation Potions       &rarr; Full Rejuvenation Potion   <span class='tool ttk'><img class='rejuvs'/><span class='in'> + </span><img class='rejuvs'/><span class='in'> + </span><img class='rejuvs'/><span class='in'> &rarr; </span><img class='rejuvf'/></span></td></tr>
-    <tr><td class='tooltip r22'>Staff + Kris + Belt + Diamond &rarr; Savage Polearm Class Weapon<span class='tool ttk'><span class='note'>66-80% Enhanced Damage</span><br><br>Weapon Type one of:<br><br>Bardiche,<br>Battle Scythe,<br>Bill,<br>Halbred,<br>Lochaber Axe,<br>Partizan,<br>Poleaxe,<br>Scythe,<br>Voulge,<br>War Scythe<br></span></td></tr>
-</table>
-<br>
-
-<table class='head ios-visible'>
-    <tr><td>
-        <table class='head' id='table.pl2'>
-            <tr class='rt rb'><th      > Power Leveling<div class='collapse'><button value='table.pl2' onclick='onCollapse(this);'>-</button></div></th></tr>
-            <tr><td class='tooltip b11'> 1-15 Tristram runs      </td></tr>
-            <tr><td class='tooltip b22'>15-24 Tombs (Cows 21-24) </td></tr>
-            <tr><td class='tooltip b11'>   24 Ancients           </td></tr>
-            <tr><td class='tooltip b22'>25-40 Sanctuary/Baal     </td></tr>
-            <tr><td class='tooltip g11'>   40 Ancients       (nm)</td></tr>
-            <tr><td class='tooltip g22'>41-60 Sanctuary/Baal (nm)</td></tr>
-            <tr><td class='tooltip r11'>   60 Ancients     (Hell)</td></tr>
-            <tr><td class='tooltip r22'>41-60 Baal         (Hell)</td></tr>
-        </table>
-    </td>
-    <td class='vatop padd5'>
-        <table id='table.bestxp2'>
-            <tr class='gt gb'><th      >Best XP    I      II     III    IV     V<div class='collapse'><button value='table.bestxp2' onclick='onCollapse(this);'>-</button></div></th></tr>
-            <tr><td class='tooltip b22'>Normal      1-11  12-18  19-23  24-31  32-36</td></tr>
-            <tr><td class='tooltip g22'>Nightmare  37-43  44-48  49-52  53-62  skip </td></tr>
-            <tr><td class='tooltip r22'>Hell       63-73  74-80  81-83  83-94  95-99</td></tr>
-        </table>
-        <br>
-        <table id='table.bases4sword'>
-            <tr class='bt bb'><th      >4os sword bases: Crystal, Broad, Long, ilvl 26-40<div class='collapse'><button value='table.bases4sword' onclick='onCollapse(this);'>-</button></div></th></tr>
-            <tr><td class='tooltip b11'>Normal    Act 5                                    </td></tr>
-            <tr><td class='tooltip b22'>Normal    Cows                                     </td></tr>
-            <tr><td class='tooltip b11'>Nightmare Act 1                                    </td></tr>
-        </table>
-    </td></tr>
-</table>
+               
 <br>
 <table>
     <tr>
@@ -3166,6 +3043,69 @@ function updateRuneWordsVisible()
         </td
     </tr>
 </table>
+    
+    
+    
+            <table class='head' style='min-width:730px' id='table.fcr'>
+<tr class='bt bb'        ><th><span class='b'>Faster Cast Rate (<span class='fcr'>FCR</span>)</span>                             <a href='https://www.youtube.com/watch?v=ivm5cFeJYSA'>Hidden</a> 86 <a href='https://www.diabloii.net/forums/threads/druid-fcr-action-frames-good-info-for-pvp-elementalists-i.794229/'>breakpoint</a> *<div class='collapse'><button value='table.fcr' onclick='onCollapse(this);'>-</button></div>
+<meta                       />Frames  23  22  21  20  19  18  17  16  15   14   13   12   11   10    9    8    7</th></tr>
+<tr><td class='tooltip k11'  >Ama                      0   7  14  22  32   48   68   99  152                    </td></tr>
+<tr><td class='tooltip r22'  >Asn                                  0   8   16   27   42   65  102  174          </td></tr>
+<tr><td class='tooltip k11'  >Bar                                                0    9   20   37   63  105  200</td></tr>
+<tr><td class='tooltip g22'  >Drd Human                    0   4  10  19   30   46   68   99  163               </td></tr>
+<tr><td class='tooltip k11'  >    Bear                             0   7   15   26   40   63   99  163          </td></tr>
+<tr><td class='tooltip g22'  >    Wolf                             0   6   14   26   40   60   95  157          </td></tr>
+<tr><td class='tooltip k11'  >Nec Human                                0    9   18   30   48   75  125          </td></tr>
+<tr><td class='tooltip k22'  >    Vamp 0   6  11  18  24  35  48  65  86  120  180                              </td></tr>
+<tr><td class='tooltip k11'  >Pal                                      0    9   18   30   48   75  125          </td></tr>
+<tr><td class='tooltip b22'  >Src Lightning            0   7  15  23  35   52   78  117  194                    </td></tr>
+<tr><td class='tooltip k11'  >    Other skills                                   0    9   20   37   63<span class='note'>*</span> 105  200</td></tr>
+<tr><td class='tooltip k22'  >Mrc Act3                         0   8  15   26   39   58   86  138               </td></tr>
+<tr class='bt'           ><th>Frames  23  22  21  20  19  18  17  16  15   14   13   12   11   10    9    8    7</th></tr>
+            </table>
+            <br>
+            <table class='head column2' id='table.fhr'>
+<tr class='gt gb'        ><th><span class='g'>Faster Hit Recovery (<span class='fhr'>FHR</span>)</span><div class='collapse'><button value='table.fhr' onclick='onCollapse(this);'>-</button></div>
+<meta                       />Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
+<tr><td class='tooltip k11'  >Ama                               0   6  13  20   32   52   86  174  600          </td></tr>
+<tr><td class='tooltip r22'  >Asn                                       0   7   15   27   48   86  200          </td></tr>
+<tr><td class='tooltip k11'  >Bar                                       0   7   15   27   48   86  200          </td></tr>
+<tr><td class='tooltip g22'  >Drd Human 1H          0   3   7  13  19  29  42   63   99  174  456               </td></tr>
+<tr><td class='tooltip k11'  >    Human 2H              0   5  10  16  26  39   56   86  152  377               </td></tr>
+<tr><td class='tooltip g22'  >    Bear                  0   5  10  16  24  37   54   86  152  460               </td></tr>
+<tr><td class='tooltip k11'  >    Wolf                                           0    9   20   42   86  280     </td></tr>
+<tr><td class='tooltip k22'  >Nec Human                 0   5  10  16  26  39   56   86  152  377               </td></tr>
+<tr><td class='tooltip k11'  >    Vamp          0   2   6  10  16  24  34  48   72  117                         </td></tr>
+<tr><td class='tooltip k22'  >Pal Spear/Stave           0   3   7  13  20  32   48   75  129  280               </td></tr>
+<tr><td class='tooltip k11'  >    rest                                  0   7   15   27   48   86  200          </td></tr>
+<tr><td class='tooltip b22'  >Src               0   5   9  14  20  30  42  60   86  142  280                    </td></tr>
+<tr><td class='tooltip k11'  >Mrc Act1                          0   6  13  20   32   52   86  174  600          </td></tr>
+<tr><td class='tooltip k22'  >    Act2          0   5   9  14  20  30  42  60   86  142  280                    </td></tr>
+<tr><td class='tooltip k11'  >    Act3  0   5   8  13  18  24  32  46  63  86  133  232  600                    </td></tr>
+<tr><td class='tooltip k22'  >    Act5                                  0   7   15   27   48   86  200          </td></tr>
+<tr class='gt'           ><th>Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
+            </table>
+            <br>
+            <table class='head column2' id='table.fbr'>
+<tr class='rt rb'        ><th><span class='r'>Faster Block Rate (<span class='fbr'>FBR</span>)</span>           Block% = (Shield% * (Dex - 15)) / (clvl * 2)<div class='collapse'><button value='table.fbr' onclick='onCollapse(this);'>-</button></div>
+<meta                       />Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
+<tr><td class='tooltip k22'  >Ama 1H*   0   4   6  11  15  23  29  40  56  80  120  200  480                    <span class='tool ttr'><b>Includes:</b><br><br> 1H axes and throwing axes,<br> clubs,<br> 1H maces, <br> orbs,<br> scepters, <br> 1H swords, 2H swords wielded in one hand,<br> and wands.</span></td></tr>
+<tr><td class='tooltip k11'  >    2H                                                       0   13   32   86  600</td></tr>
+<tr><td class='tooltip r22'  >Asn                                                          0   13   32   86  600</td></tr>
+<tr><td class='tooltip k11'  >Bar                                                0    9   20   42   86  280     </td></tr>
+<tr><td class='tooltip g22'  >Drd Human                         0   6  13  20   32   52   86  174  600          </td></tr>
+<tr><td class='tooltip g11'  >    Bear                                  0   7   15   27   48   86  200          </td></tr>
+<tr><td class='tooltip k22'  >    Wolf                  0   5  10  16  27  40   65  109  223                    </td></tr>
+<tr><td class='tooltip k11'  >Nec Human                         0   6  13  20   32   52   86  174  600          </td></tr>
+<tr><td class='tooltip k22'  >    Vamp          0   2   6  10  16  24  34  48   72  117  208                    </td></tr>
+<tr><td class='tooltip k11'  >Pal                                                          0   13   32   86  600</td></tr>
+<tr><td class='tooltip k22'  >    Holy Shield                                                             0   86</td></tr>
+<tr><td class='tooltip b22'  >Src                                       0   7   15   27   48   86  200          </td></tr>
+<tr class='rt'           ><th>Frames   17  16  15  14  13  12  11  10   9   8    7    6    5    4    3    2    1</th></tr>
+            </table>
+<br>
+    
+    
 <hr>
 <pre>
 <b>Feedback:</b>
