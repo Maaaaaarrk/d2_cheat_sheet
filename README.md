@@ -1,6 +1,6 @@
-# Diablo 2 Cheat Sheet
+# Paired down Diablo 2 Cheat Sheet for Mods
 
-* [Cheat Sheet](https://htmlpreview.github.io/?https://github.com/Maaaaaarrk/d2_cheat_sheet/blob/master/index.html)
+* [Click to view Cheat Sheet](https://htmlpreview.github.io/?https://github.com/Maaaaaarrk/d2_cheat_sheet/blob/master/index.html)
 
 # QoL Features
 
